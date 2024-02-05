@@ -1,87 +1,85 @@
 <!DOCTYPE html>
 <html lang="es">
+    <head>
+        <title>Sobre Nosotros</title>
+        <meta charset="UTF-8">
+        <link href="../static.css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="../static.css/menu.css" rel="stylesheet" type="text/css" />
+    </head>
 
-<head>
-    <title>Registrarse</title>
-    <meta charset="UTF-8">
-    <link href="../static.css/styles.css" rel="stylesheet" type="text/css" />
-    <link href="../static.css/menu.css" rel="stylesheet" type="text/css" />
-</head>
+    <body class="contenedor-principal">
+        <header class="header">
+            <nav class="nav">
+                <h1><a href="index.html" class="nav-link logo">VM22</a></h1>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a href="index.html" class="nav-link nav-menu-link">Menu</a></li>
+                    <li class="nav-menu-item"><a href="Noticias.html" class="nav-link nav-menu-link">Noticias</a></li>
+                    <li class="nav-menu-item"><a href="parches.html" class="nav-link nav-menu-link">Parches</a></li>
+                    <li class="nav-menu-item"><a href="canciones.html" class="nav-link nav-menu-link">Canciones</a></li>
+                    <li class="nav-menu-item"><a href="SobreNosotros.html" class="nav-link nav-menu-link">SobreNosotros</a></li>
+                    <li class="nav-menu-item"><a href="comoJugar.html" class="nav-link nav-menu-link">Como Jugar</a></li>
+                    <li class="nav-menu-item"><a href="personajes.html" class="nav-link nav-menu-link">Personajes</a></li>
+                    <li class="nav-menu-item"><a href="registrarse.html" class="nav-link nav-menu-link">Registrarse</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="contenedor-principal">
+                <article style="text-align: center">
+                    <br>
+                    <br>
+                    <br>
+                    <h2>Informacion Sobre nosotros y como se fundo</h2>
+                    <br>
+                    <img src="../static.img/lol.jpg" alt=""; height="500"; width="500"/>
+                    <br>
+                    <br>
+                    <p>Riot Games se fundó en 2006 para desarrollar, publicar y apoyar los juegos más centrados en los jugadores del mundo. En 2009, lanzamos nuestro primer juego reconocido mundialmente, League of Legends. 
+                        Se ha convertido en el juego para PC más jugado en el mundo y en un factor clave del crecimiento explosivo de los esports.</p>
+                    <br>
+                    <h3>Todas las canciones del Mundial de League of Legends</h3>
+                    <br>
+                    <P>Con la llegada de la segunda década de LoL, seguimos haciendo evolucionar el juego, al mismo tiempo que ofrecemos nuevas experiencias a los jugadores, como Teamfight Tactics, Legends of Runeterra, VALORANT, League of Legends: Wild Rift y otros muchos títulos en desarrollo. Además,
+                         Riot Forge da acceso a los desarrolladores a la propiedad intelectual de Riot para que puedan crear juegos como Ruined King y muchas otras aventuras con las que explorar Runaterra. También estamos expandiendo el mundo de Runaterra mediante proyectos multimedia como música, cómics, juegos de mesa y nuestra serie de animación galardonada con premios Emmy, Arcane.</P>
+                    <br>
+                    <p>En el Campeonato Mundial de League of Legends anual participan los equipos clasificados de 12 ligas internacionales. El Mundial es el torneo de esports más visto y uno de los eventos deportivos y de videojuegos más importantes y populares del mundo.</p>
+                    <br>
+                    <br>
+                    <h3>Worlds 2014 - Warriors (Imagine Dragons)</h3>
+                    <br>
+                    <p>Con el fin de que Riot sea como un hogar para las personas a las que les encanta crear videojuegos, nos hemos centrado en poner el listón alto en cuanto a diversidad e inclusión.</p>
+                    <br>
+                    <img src="../static.img/astra.jpg" alt=""/>
+                    <br>
+                </article>
 
-<body>
-    <header class="header">
-        <nav class="nav">
-            <h1><a href="index.html" class="nav-link logo">VM22</a></h1>
-            <ul class="nav-menu">
-                <li class="nav-menu-item"><a href="index.html" class="nav-link nav-menu-link">Menu</a></li><br>
-                <li class="nav-menu-item"><a href="Noticias.html" class="nav-link nav-menu-link">Noticias</a></li>
-                <li class="nav-menu-item"><a href="parches.html" class="nav-link nav-menu-link">Parches</a></li>
-                <li class="nav-menu-item"><a href="canciones.html" class="nav-link nav-menu-link">Canciones</a></li>
-                <li class="nav-menu-item"><a href="SobreNosotros.html" class="nav-link nav-menu-link">SobreNosotros</a></li>
-                <li class="nav-menu-item"><a href="comoJugar.html" class="nav-link nav-menu-link">Como Jugar</a></li>
-                <li class="nav-menu-item"><a href="personajes.html" class="nav-link nav-menu-link">Personajes</a></li>
-                <li class="nav-menu-item"><a href="registrarse.html" class="nav-link nav-menu-link">Registrarse</a></li>
-            </ul>
-        </nav>
-    </header>
-    <aside>
-        
-        <br>
-        <br>
-    </aside>
-    <section class="contenedor-principal">
-        <h2 class="noticia">Ingrese su informacion</h2>
-        <br>
-        <br>
-        <article style="text-align: center;">
-            <br>
-            <form action="/usuario/registro" method="POST">
-                <table class="formulario">
-                    <tbody>
-                        <tr>
-                            <td>Usuario:</td>
-                            <td><input type="text" name="username" value="" size="15" /></td>
-                        </tr>
-                        <tr>
-                            <td>Contraseña:</td>
-                            <td><input type="password" name="password" value="" size="20" /></td>
-                        </tr>
-                        <tr>
-                            <td>Nombre:</td>
-                            <td><input type="text" name="Nombre" value="" size="35" /></td>
-                        </tr>
-                        <tr>
-                            <td>Correo:</td>
-                            <td><input type="email" name="usuario" placeholder="correo@correo.com" size="35" /></td>
-                        </tr>
-                        <tr>
-                            <td>Edad:</td>
-                            <td><input type="number" name="edad" value="" min="18" max="80" /></td>
-                        </tr>
-                        <tr>
-                            <td>Fecha activo:</td>
-                            <td><input type="date" name="Factivo" value="" /></td>
-                        </tr>
-                        <tr>
-                            <td>Foto:</td>
-                            <td><input type="file" name="foto" accept="image/*" /><br></td>
-                        </tr>
-                        <tr>
-                            <td>Declaro que es informacion es veraz: </td>
-                            <td><input type="checkbox" name="jura" value="ON" /></td>
-                        </tr>
-                </table>
-                <br>
-                <input type="submit" value="Registro" name="btnRegistro" /><br>
-            </form>
-        </article>
-        <br>
-        <br>
-    </section>
-    <br>
-    <br>
-</body>
-<footer>
-    <p>Derechos Reservados &COPY; 2023</p>
-</footer>
+
+                <article style="text-align: center">
+                    <h3>Impacto social</h3>
+                    <br>
+                    <p>Creemos que cualquiera que tenga pasión, visión y perseverancia puede contribuir de manera positiva. Como parte de ese carácter distintivo, creemos que hay formas en las que nosotros como empresa podemos proporcionar valor a largo plazo, así como ejercer un impacto positivo en los jugadores, asociados, empleados y las comunidades en las que nos implicamos.</p>
+                    <br>
+                    <p>Esperamos que, mediante nuestra responsabilidad social corporativa, nuestros recursos y fortalezas sirvan para dejar una huella positiva y duradera en todas las partes interesadas, así como en nuestros jugadores, empleados de Riot, nuestras comunidades y el planeta que compartimos.</p>
+                    <br>
+                    <img src="../static.img/comunidad.png" alt=""/>
+                    <br>
+                </article>
+
+                <article style="text-align: center">
+                    <br>
+                    <h1>Somos mundiales</h1>
+                    <br>
+                    <p>La sede de Riot Games está en la soleada ciudad de Los Ángeles, pero tenemos muchas más oficinas repartidas por todo el mundo. Buscamos a jugadores apasionados que además sean expertos en sus ámbitos para que nos ayuden a crear una experiencia mejor para los jugadores, sin importar dónde jueguen.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <h2>Nos podras encotrar en una nuestras cedes ubicada en esta zona</h2>
+                    <br>
+                    <br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245.08426348950448!2d-85.4369598577815!3d10.630033024328167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f75635633587dd7%3A0x764795e810bbf1bb!2sAnor%20Londo!5e0!3m2!1ses-419!2scr!4v1707172656889!5m2!1ses-419!2scr" width="400" height="300" 
+                    style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+        </section>
+        <footer>Derechos Reservados &COPY; 2023</footer>
+    </body>
 </html>
