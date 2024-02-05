@@ -1,0 +1,83 @@
+ /*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+ /* 
+    Created on : 4 feb 2024, 04:45:19
+    Author     : anyelo
+*/
+
+ * {
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: sans-serif;
+     padding: 80px 20px 0;
+     background-image: url("../static.img/fondo.jpg");
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center center;
+ }
+
+ .header {
+     background-color: #076AF0;
+     height: 80px;
+     position: fixed;
+     width: 100%;
+     top: 0;
+     left: 0;
+     padding: 10px;
+     z-index: 1000;
+ }
+
+ .nav {
+     display: flex;
+     justify-content: space-between;
+     margin: 0 auto;
+ }
+
+ .nav-link {
+     color: white;
+     text-decoration: none;
+ }
+
+ .logo {
+     font-size: 30px;
+     font-weight: bold;
+     padding: 0px 40px;
+     line-height: 80px
+ }
+
+ .nav-menu {
+     display: flex;
+     margin-left: 40px;
+     list-style: none;
+     line-height: 80px;
+ }
+
+ .nav-menu-item {
+     font-size: 18px;
+     margin: 0 10px;
+ }
+
+ .nav-menu-link {
+     padding: 8px 12px;
+     border-radius: 10px;
+ }
+
+
+ .nav-menu-link:hover {
+     background-color: #024070;
+     padding: 8px 12px;
+     border-radius: 10px;
+ }
+
+ .contenedor-principal {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #cfcdcd;
+    padding: 20px;
+  }
+  
